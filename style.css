@@ -1,35 +1,117 @@
-/Head Line
-h1 {
-  color: gray;
-  text-align: center;
-  margin-bottom: 30px;
+@charset "UTF-8";
+/* CSS Document */
+/*body{margin: 0px; padding: 0px;}*/
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-header1 {
-  background-color: #e52b50;
-  text-align: center;
-  color: black;
-}
-  
-header2 {
-  background-color: #a52a2a;
-  text-align: center;
-  color: black;
-}
-  
-header3 {
-  background-color: #ffbf00;
-  text-align: center;
-  color: black;
+/********** Header ***********/
+
+h1{
+	text-align:center;
+	margin-bottom: 50px;
+	color: black;
+	font-family: arial, verdana, sans;
+	}
+
+/********** Chicken ***********/
+
+.chicken{
+	border:2px solid #000;
+	background-color: #D79598;
+	font-family: arial, verdana, sans;
+	width: 150px;
+	}
+
+/********** Beef ***********/
+
+.beef{
+	border:2px solid #000;	
+	background-color: #C44248;
+	font-family: arial, verdana, sans;
+	color: #ffffff;
+	width: 150px;
+	}
+/********** Sushi ***********/
+
+.sushi{
+	border:2px solid #000;	
+	background-color: #E3CF9E;
+	font-family: arial, verdana, sans;
+	width: 150px;
+	}
+
+/********** Header 3 ***********/
+
+h3{
+	float:right;
+	width:80px;
+	text-align:center;
+	margin-bottom: 10px;
+	margin-top: -2px;
+	margin-right: -2px;
+	padding: 5px;
+	}
+
+/********** Text Box ***********/
+
+p{
+	padding-top: 40px;
+	padding-right:10px;
+	padding-left:10px;
+	font-size: 12px;
+	font-family: arial, verdana, sans;
+	}
+
+
+.col{
+	position: relative;
+	float: left;
+	background-color: #E3E3E3;
+	border:2px solid #000;
+	margin-bottom: 20px;
+	box-sizing: border-box;
 }
 
-box {
-  background-color: #b2beb5;
-  text-align: left;
-  color: black;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  margin-left: 5px;
-  height: 300px;
+/********** Mobile ***********/
+
+@media (min-width:360px){
+	.container{
+		width:340px;
+	}
+	.mobile{
+		width: 100%;
+	}
+ }
+
+/********** Tablet ***********/
+
+@media (min-width:768px) {
+  .container {
+    width: 750px;
+ }
+ .tablet{
+ 	width: 45%;
+	margin-left: 20px;
+ }
+	.ext{
+		width:93%; 
+	}
+}
+
+/********** Desktop ***********/
+
+@media (min-width:992px){
+.container{
+	 width: 970px;
+	}	
+.desktop{
+	width:31%;
+	margin-right: 10px;
+	margin-left: 10px;
+} 
 }
