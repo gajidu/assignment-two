@@ -1,1 +1,35 @@
+/Head Line
+h1 {
+  color: gray;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+header1 {
+  background-color: #e52b50;
+  text-align: center;
+  color: black;
+}
+  
+header2 {
+  background-color: #a52a2a;
+  text-align: center;
+  color: black;
+}
+  
+header3 {
+  background-color: #ffbf00;
+  text-align: center;
+  color: black;
+}
+
+box {
+  background-color: #b2beb5;
+  text-align: left;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 300px;
+}
